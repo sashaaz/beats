@@ -3,4 +3,6 @@ pip-selfcheck.json
 bin/
 lib/
 include/
+etc/
+share/
 
