@@ -9,7 +9,7 @@ Investigating beats for Raman Recombination project
     virtualenv .
     . bin/activate
 ```
-2. create new virtualenv:
+2. install the dependencies:
 ```
     pip install -r  requirements.txt
 ```
