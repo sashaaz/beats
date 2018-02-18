@@ -13,3 +13,8 @@ Investigating beats for Raman Recombination project
 ```
     pip install -r  requirements.txt
 ```
+
+# start the notebook
+```
+    jupyter notebook
+```
