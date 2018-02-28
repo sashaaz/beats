@@ -26,8 +26,8 @@ beats_fft = abs(fft(slice_beats, 2^(nextpow2(size_window))));
 plot(w, beats_fft);
 xlim([0 1e15])
 %ylim([0 15e4])
-xlabel('Frequency (c/lambda)');
+xlabel('Frequency');
 ylabel('Amplitude (arb. units)')
-title('AS 1 + 3/SH of AS 2 FFT Spectrum (Moving AS 3)');
-set(gca, 'FontSize', 16);
+title('AS 1 + 3/SH of AS 2 FFT Spectrum');
+set(gca, 'FontSize', 26);
 
