@@ -1,0 +1,10 @@
+Let us now discuss the phase(s) of the final synthesized beam, taking a superposition of three beams as an example, as in Section \ref{sec:beatsdiscussion}. Let us call each beam $w_1$, $w_2$, and $w_3$, with corresponding phases $\phi_1$, $\phi_2$, and $\phi_3$. In the combined beam, discussing the phase of each beam separately makes little sense, as adding a constant phase to each $\phi_n$ will not change the overall temporal structure of the synthesized beam, but will change each individual phase. Hence, we redefine the relevant phases in the context of the synthesized beam. If we use the beating of $w_1 + w_3$ with the second harmonic of $w_2$ to characterize the synthesized beam, we can define a single relative phase: $\frac{1}{6}(2\phi_2 - \phi_1 -\phi_3)$. There are two other phases that we can define, one of which is the carrier envelope phase for the synthesized beam, $\frac{1}{3}(\phi_1 + \phi_2 + \phi_3)$, the other of which gives a trivial delay (WHAT IS THIS PHASE WE DO NOT EVEN KNOW). This is shown in Fig. \ref{fig:phase_comparison}, where synthesized pulse shapes are plotted as functions of different relative phases. Having a single well-defined relative phase allows us some ambiguity in the phase retrieval -- we do not need to know the absolute phases $\phi_1$, $\phi_2$, and $\phi_3$ in order to determine the final synthesized pulse structure. 
+
+\begin{figure}
+	\begin{center}
+		
+		\includegraphics[width=1\textwidth]{NOT-MADE_YETBUTWILLCOMBINESEVERALFIGS.pdf}
+		\caption{Multiple synthesized beams. Demonstrating the effects of changing (a) $2\phi_2 - \phi_1 - \phi_3$ while keeping $\phi_1 + \phi_2 + \phi_3$ constant; (b) $\frac{1}{3}(\phi_1 + \phi_2 + \phi_3)$ (i.e. the carrier envelope phase) while keeping $2\phi_2 - \phi_1 - \phi_3$ constant. In this example, we have set $\phi_1 = 0.1\pi$, $\phi_2 = 0.3\pi$, and $\phi_3 = 0.2\pi$. (c) Some figure changing the last phase while keeping other two constant.}
+		\label{fig:phase_comparison}
+	\end{center}
+\end{figure}
