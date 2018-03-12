@@ -8,7 +8,7 @@ w = [0.8 1 1.2];
 
 %dE = [0 -1/2 -1; 0 1 2; 0 -1/2 -1]*pi; % final matrix for phi_1 + phi_2 + phi_3 const.
 
-dE = [0 1/2 1; 0 0 0; 0 -1/2 -1]*pi; % matrix for phi_1 - phi_3 not constant, adding linear time delay.
+dE = [0 1.1 3.25; 0 0 0; 0 -1.5 -4.5]; % matrix for phi_1 - phi_3 not constant, adding linear time delay.
 % the values that are here now are not exactly right, but they are close to
 % right. Give nearly nondistorted time delay.
 % figure; 
